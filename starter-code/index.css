@@ -1,0 +1,950 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+/* Banner Section */
+.banner {
+    width: 100%;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/homepage/hero-bg-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 280px 6%;
+    padding-bottom: 140px;
+}
+
+.banner-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    color: #FFFFFF;
+}
+
+.banner-details h3 {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.banner-details p {
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+.banner-btn {
+    padding: 20px 40px;
+    background: transparent;
+    border: 1.5px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 3.5px;
+    margin: 1.5rem 0;
+    cursor: pointer;
+}
+
+.banner-btn:hover {
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+    outline: none;
+}
+
+/* Place */
+.place {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.place-background {
+    width: 790px;
+    height: 300px;
+    background-color: #f1f1f1;
+    border-radius: 0 100px 0 0;
+    display: none;
+}
+
+.place-details {
+    width: 100%;
+    padding: 10px 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.place-image {
+    width: 100%;
+    margin-top: -5.5rem;
+    position: relative;
+}
+
+.place-image img {
+    width: 100%;
+}
+
+.place-desp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.design {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.circle {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1px solid #ccac91;
+}
+
+.line {
+    width: 57px;
+    height: .5px;
+    border: .5px solid #ccac91;
+}
+
+.place-desp-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: #242B37;
+}
+
+.place-desp-details h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.place-desp-details p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.food {
+    width: 100%;
+    margin: 4rem 0;
+}
+
+.food-background {
+    width: 790px;
+    height: 300px;
+    background-color: #f1f1f1;
+    border-radius: 100px 0 0 0;
+    display: none;
+}
+
+.food-lines {
+    display: none;
+}
+
+.lines {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.food-line {
+    width: 160px;
+    height: 6px;
+    background-color: #9E7F66;
+}
+
+.food-details {
+    width: 100%;
+    padding: 0px 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.food-image {
+    width: 100%;
+    position: relative;
+}
+
+.food-image img {
+    width: 100%;
+}
+
+.food-desp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.design {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.circle {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1px solid #ccac91;
+}
+
+.line {
+    width: 57px;
+    height: .5px;
+    border: .5px solid #ccac91;
+}
+
+.food-desp-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: #242B37;
+}
+
+.food-desp-details h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.food-desp-details p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+/* Highlights */
+.highlights{
+    width: 100%;
+    background-color: black;
+}
+
+.highlight {
+    padding: 80px 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.menu-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    gap: 2rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.menu-details h1 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 1px;
+}
+
+.menu-details p {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.foods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.dessert {
+    padding: 40px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: .5px solid white;
+}
+
+.dessert-image {
+    width: 100%;
+}
+
+.dessert-image img {
+    width: 100%;
+}
+
+.dessert-image .line {
+    display: none;
+}
+
+.dessert-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    text-align: center;
+}
+
+.dessert-details h3 {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.dessert-details p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.reservation {
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.reservation-slide {
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/homepage/ready-bg-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reservation-slide-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 130px 6%;
+}
+
+.reservation-slide-details h1 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #FFFFFF;
+}
+
+.reservation-btn {
+    padding: 20px 40px;
+    border: 1.5px solid #FFFFFF;
+    color: #FFFFFF;font-size: 17px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    cursor: pointer;
+    background: transparent;
+    margin: 1.5rem 0;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+}
+
+.footer-slide {
+    padding: 60px 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+}
+
+.hotel-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.location p {
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 1.8;
+    letter-spacing: 1.4px;
+}
+
+.time p {
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 1.8;
+    letter-spacing: 1.4px;
+}
+
+/* Tablet */
+
+@media (min-width:767px) and (max-width:1024px) {
+    .slide {
+        background-image: url(./images/homepage/hero-bg-tablet.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slide-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding: 370px 8%;
+        padding-bottom: 200px;
+    }
+
+    .banner-details h3 {
+        width: 26rem;
+        font-size: 60px;
+    }
+
+    .banner-details p {
+        font-size: 25px;
+        font-weight: 100;
+        line-height: 1.6;
+    }
+
+    .banner-btn {
+        font-size: 19px;
+    }
+
+    /* Place */
+    .place {
+        position: relative;
+    }
+
+    .place-background {
+        display: block;
+        position: absolute;
+        left: -380px;
+        top: 155px;
+    }
+
+    .place-details {
+        padding: 10px 8%;
+        gap: 3rem;
+    }
+
+    .place-image {
+        margin-top: -7.5rem;
+    }
+
+    .place-desp {
+        z-index: 1;
+        gap: 3rem;
+    }
+
+    .place-desp-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .place-desp-details h1 {
+        width: 25rem;
+        font-size: 50px;
+        font-weight: 800;
+        line-height: 1.1;
+    }
+    
+    .place-desp-details p {
+        width: 40rem;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    .food {
+        position: relative;
+    }
+
+    .food-lines {
+        display: block;
+        position: absolute;
+        top: 290px;
+        right: 20px;
+        z-index: 1;
+    }
+
+    .food-details {
+        padding: 10px 8%;
+        gap: 3rem;
+    }
+
+    .food-desp {
+        z-index: 1;
+        gap: 3rem;
+    }
+
+    .food-desp-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-desp-details h1 {
+        width: 25rem;
+        font-size: 50px;
+        font-weight: 800;
+        line-height: 1.1;
+    }
+    
+    .food-desp-details p {
+        width: 40rem;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    /* Highlights */
+    .highlight {
+        padding: 80px 8%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .foods {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .dessert {
+        padding: 40px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+        border-bottom: .5px solid white;
+    }
+
+    .dessert-image {
+        width: 50%;
+        position: relative;
+    }
+
+    .dessert-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 35px;
+        text-align: left;
+    }
+    
+    .dessert-details h3 {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    
+    .dessert-details p {
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 1.6;
+    }
+
+    .reservation-slide {
+        width: 100%;
+        height: 100%;
+        background-image: url(./images/homepage/ready-bg-tablet.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+    
+    .reservation-slide-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 130px 8%;
+    }
+    
+    .reservation-slide-details h1 {
+        font-size: 65px;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+
+    .footer-slide {
+        padding: 60px 8%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 6rem;
+    }
+    
+    .hotel-details {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+
+}
+
+/* Desktop */
+@media (min-width:1025px) {
+    .slide {
+        background-image: url(./images/homepage/hero-bg-desktop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .slide-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 5rem;
+        padding: 50px 6%;
+        padding-bottom: 180px;
+    }
+
+    .banner-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .banner-details h3 {
+        width: 28rem;
+        font-size: 55px;
+        line-height: 1;
+    }
+
+    .banner-details p {
+        width: 26rem;
+        font-size: 20px;
+    }
+
+    .banner-btn {
+        padding: 20px 40px;
+        margin: .5rem 0;
+        font-size: 16px;
+    }
+
+    /* Place */
+    .place {
+        position: relative;
+    }
+
+    .place-background {
+        display: block;
+        position: absolute;
+        left: 0px;
+        top: 245px;
+    }
+
+    .place-details {
+        display: flex;
+        flex-direction: row;
+        gap:6rem;
+    }
+
+    .place-image {
+        width: 50%;
+    }
+
+    .place-desp {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+        z-index: 1;
+    }
+
+    .place-desp-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .place-desp-details h1 {
+        width: 25rem;
+        font-size: 47px;
+        font-weight: 800;
+        line-height: 1.1;
+    }
+    
+    .place-desp-details p {
+        width: 27rem;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    .food {
+        position: relative;
+    }
+
+    .food-lines {
+        display: block;
+        position: absolute;
+        top: 290px;
+        right: 10px;
+        z-index: 1;
+    }
+
+    .food-details {
+        display: flex;
+        flex-direction: row-reverse;
+        gap:6rem;
+    }
+
+    .food-image {
+        width: 50%;
+        margin-bottom: -6rem;
+    }
+
+    .food-image img {
+        margin-bottom: -3rem;
+    }
+
+    .food-desp {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+        z-index: 1;
+    }
+
+    .food-desp-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .food-desp-details h1 {
+        width: 25rem;
+        font-size: 47px;
+        font-weight: 800;
+        line-height: 1.1;
+    }
+    
+    .food-desp-details p {
+        width: 27rem;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    /* Highlights */
+    .highlight {
+        width: 100%;
+        padding: 260px 6%;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 5rem;
+    }
+
+    .menu {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+    }
+
+    .menu .design {
+        position: absolute;
+        left: 0;
+        top: -50px;
+    }
+
+    .menu-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;    
+        align-items: flex-start;
+        gap: 2rem;
+        color: #FFFFFF;
+        text-align: left;
+    }
+
+    .menu-details h1 {
+        font-size: 48px;
+    }
+
+    .menu-details p {
+        font-size: 20px;
+        width: 28rem;
+    }
+
+    .dessert {
+        padding: 20px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        border-bottom: .5px solid white;
+    }
+
+    .dessert-image {
+        width: 128px;
+    }
+
+    .dessert-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        text-align: left;
+    }
+
+    .dessert-details h3 {
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    
+    .dessert-details p {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+
+    .reservation {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .reservation-slide {
+        width: 100%;
+        background-image: url(./images/homepage/ready-bg-desktop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0 6%;
+    }
+    
+    .reservation-slide-details {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 80px 0;
+    }
+    
+    .reservation-slide-details h1 {
+        font-size: 45px;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+
+    .reservation-btn {
+        align-self: flex-end;
+    }
+
+    .reservation-btn:hover {
+        background-color: white;
+        color: black;
+        border: 1.5px solid black;
+    }
+
+    .footer-slide {
+        padding: 70px 6%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 9rem;
+    }
+    
+    .hotel-details {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 7rem;
+        text-align: left;
+    }
+
+    .location p {
+        font-size: 16px;
+    }
+    
+    .time p {
+        font-size: 16px;
+    }
+}
